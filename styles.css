@@ -1,0 +1,140 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #2d6a4f;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
+
+/* Dropdown Menus */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background: #40916c;
+  display: none;
+  flex-direction: column;
+  min-width: 150px;
+  border-radius: 5px;
+}
+
+.dropdown-menu a {
+  padding: 10px;
+  color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://images.unsplash.com/photo-1504593811423-6dd665756598') no-repeat center center/cover;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.cta-btn {
+  background: #52b788;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Features */
+.features {
+  padding: 50px 20px;
+  background: #edf6f9;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  background: #2d6a4f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  color: #d4f3e4;
+  text-decoration: none;
+}
+
+/* Responsive Layout */
+@media (min-width: 768px) {
+  .feature-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .feature {
+    width: 30%;
+  }
+}
