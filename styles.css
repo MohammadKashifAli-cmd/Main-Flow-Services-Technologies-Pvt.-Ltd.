@@ -1,18 +1,18 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Base Styling */
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f9f9f9;
   color: #333;
 }
 
-/* Header */
+
 header {
   background: #2d6a4f;
   color: white;
@@ -39,7 +39,7 @@ header {
   padding: 8px;
 }
 
-/* Dropdown Menus */
+
 .dropdown {
   position: relative;
 }
@@ -64,7 +64,7 @@ header {
   display: flex;
 }
 
-/* Hero Section */
+
 .hero {
   background: url('https://images.unsplash.com/photo-1504593811423-6dd665756598') no-repeat center center/cover;
   padding: 100px 20px;
@@ -89,7 +89,7 @@ header {
   border-radius: 4px;
 }
 
-/* Features */
+
 .features {
   padding: 50px 20px;
   background: #edf6f9;
@@ -114,7 +114,7 @@ header {
   border-radius: 6px;
 }
 
-/* Footer */
+
 footer {
   background: #2d6a4f;
   color: white;
@@ -127,7 +127,7 @@ footer a {
   text-decoration: none;
 }
 
-/* Responsive Layout */
+
 @media (min-width: 768px) {
   .feature-list {
     flex-direction: row;
